@@ -1,0 +1,17 @@
+/* Variables */
+$title-text: 'Montserrat', sans-serif;
+$subtitle-text: 'Roboto Slab', serif;
+$main-text: 'Kanit', sans-serif;
+
+
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-size: 14px;
+max-width: 1400px;
+}
