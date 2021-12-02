@@ -11,3 +11,16 @@ margin: 0;
 font-size: 14px;
 max-width: 1400px;
 }
+
+/* Navigation */
+
+.navigation {
+    background-color: transparent;
+
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
+        }
+    }
+}
