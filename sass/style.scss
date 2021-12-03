@@ -17,26 +17,23 @@ font-size: 14px;
     background-color: transparent;
     margin-top: 44px;
     .navbar-logo {
-        display: inline-block;
         font-family: 'Great Vibes', cursive;
         font-size: 26px;
         color: #ffcc33;
     }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        float: right;
-        li {
-            display: inline-block;
-            ul {
-                display: none;
-            }
+    .main-menu {
+        align-items: center;
+        .row {
+            justify-content: space-between;
         }
+    }
+    a {
+        cursor: pointer;
+    }
+    .nav-links{
         a {
             font-family: $title-text;
             text-decoration: none;
         }
-    }
+    } 
 }
