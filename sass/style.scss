@@ -9,18 +9,34 @@ $main-text: 'Kanit', sans-serif;
 body {
 margin: 0;
 font-size: 14px;
-max-width: 1400px;
 }
 
 /* Navigation */
 
 .navigation {
     background-color: transparent;
+    margin-top: 44px;
+    .navbar-logo {
+        display: inline-block;
+        font-family: 'Great Vibes', cursive;
+        font-size: 26px;
+        color: #ffcc33;
+    }
 
     ul {
         list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
         li {
             display: inline-block;
+            ul {
+                display: none;
+            }
+        }
+        a {
+            font-family: $title-text;
+            text-decoration: none;
         }
     }
 }

@@ -3,19 +3,38 @@
 body {
   margin: 0;
   font-size: 14px;
-  max-width: 1400px;
 }
 
 /* Navigation */
 .navigation {
   background-color: transparent;
+  margin-top: 44px;
+}
+
+.navigation .navbar-logo {
+  display: inline-block;
+  font-family: 'Great Vibes', cursive;
+  font-size: 26px;
+  color: #ffcc33;
 }
 
 .navigation ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 .navigation ul li {
   display: inline-block;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUVBO0VBQ0EsU0FBUztFQUNULGVBQWU7RUFDZixpQkFBaUI7QUNMakI7O0FEUUEsZUFBQTtBQUVBO0VBQ0ksNkJBQTZCO0FDTmpDOztBREtBO0VBSVEscUJBQXFCO0FDTDdCOztBRENBO0VBTVkscUJBQXFCO0FDSGpDIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+
+.navigation ul li ul {
+  display: none;
+}
+
+.navigation ul a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUVBO0VBQ0EsU0FBUztFQUNULGVBQWU7QUNMZjs7QURRQSxlQUFBO0FBRUE7RUFDSSw2QkFBNkI7RUFDN0IsZ0JBQWdCO0FDTnBCOztBRElBO0VBSVEscUJBQXFCO0VBQ3JCLG1DQUFtQztFQUNuQyxlQUFlO0VBQ2YsY0FBYztBQ0p0Qjs7QURIQTtFQVdRLHFCQUFxQjtFQUNyQixTQUFTO0VBQ1QsVUFBVTtFQUNWLFlBQVk7QUNKcEI7O0FEVkE7RUFnQlkscUJBQXFCO0FDRmpDOztBRGRBO0VBa0JnQixhQUFhO0FDQTdCOztBRGxCQTtFQXNCWSxxQ0FwQ3lCO0VBcUN6QixxQkFBcUI7QUNBakMiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
