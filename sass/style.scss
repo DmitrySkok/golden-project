@@ -88,3 +88,27 @@ font-size: 14px;
         }
     } 
 }
+
+/* Services */
+
+.services {
+    margin: 118px auto;
+}
+
+.services-titles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 79px;
+    .services-title {
+        font-size: 40px;
+        font-family: $title-text;
+        text-transform: uppercase;
+        margin-bottom: 19px;
+    }
+    .services-subtitle {
+        color: #777777;
+        font-size:  17px;
+    }
+}
