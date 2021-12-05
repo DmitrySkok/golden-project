@@ -1,3 +1,4 @@
+
 /* Variables */
 $title-text: 'Montserrat', sans-serif;
 $subtitle-text: 'Roboto Slab', serif;
@@ -112,3 +113,36 @@ font-size: 14px;
         font-size:  17px;
     }
 }
+.services-block {
+    justify-content: center;
+    .services-block-item {
+        text-align: center;
+        padding: 28px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        .icon-block {
+            border: medium solid #ffcc33;
+            border-radius: 50%;
+            width: 69px;
+            height: 68px;
+        }
+        .services-icon {
+            width: 39px;
+            height: 39px;
+            margin-top: 11px;
+        }
+        h4 {
+            font-size: 18px;
+            font-family: $title-text;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        p {
+            color: #777777;
+            font-family: $main-text;
+        }
+    }
+}
+
