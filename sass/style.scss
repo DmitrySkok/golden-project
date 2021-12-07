@@ -170,14 +170,17 @@ font-size: 14px;
 }
 
 .portfolio-block {
-
+    .row {
+        justify-content: center;
+    }
     .portfolio-block-item {
-        margin: 49px 0;
+        margin: 49px 16px;
         text-align: center;
         padding: 0;
         background-color: #fff;
-        img {
-            height: 302px;
+        max-width: 290px;
+        &:last-child {
+            margin-right: 0px;
         }
     }
 }
